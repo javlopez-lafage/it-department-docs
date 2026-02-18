@@ -1,0 +1,5 @@
+<tipo>(<área>): <descripción breve>
+
+[Cuerpo opcional: explica el porqué del cambio]
+
+[Footer opcional: referencias a tickets/issues]
