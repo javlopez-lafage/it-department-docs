@@ -60,6 +60,31 @@ Aquí encontrarás información organizada sobre arquitectura, bases de datos, C
 
 ---
 
+## 🚀 Configuración inicial
+
+Este repositorio incluye scripts para configurar automáticamente la plantilla de commits y el editor de Git.
+
+### 🐧 Linux/Mac
+Después de clonar el repositorio, ejecuta:
+
+```bash
+./setup.sh
+```
+
+### 🪟 Windows
+Después de clonar el repositorio, ejecuta:
+
+```bash
+.\setup.ps1
+```
+
+### ✅ ¿Qué hace?
+- Configura la plantilla de commits (`docs/commit-template.txt`) para que cada commit siga el estándar definido.
+- Configura VS Code como editor por defecto de Git (`code --wait`).
+- Facilita el onboarding: cada vez que hagas `git commit`, se abrirá VS Code con la plantilla lista para editar.
+
+---
+
 ## 📜 Licencia
 
 Este repositorio es de uso interno.  
